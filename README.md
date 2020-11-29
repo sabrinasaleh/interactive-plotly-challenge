@@ -19,7 +19,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * **Screen Shot of the Bar Chart for ID# 1490** 
 
-    ![bar Chart](ScreenShots/screen_1.PNG)
+    ![bar-Chart](ScreenShots/screen_1.PNG)
   
 3. Create a bubble chart that displays each sample.
 
@@ -35,7 +35,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * **Screen Shot of the Bubble Chart for ID# 1490** 
 
-    ![Bubble Chart](ScreenShots/screen_2.PNG)
+    ![bubble-chart](ScreenShots/screen_2.PNG)
     
 4. Display the sample metadata, i.e., an individual's demographic information.
 
@@ -57,14 +57,16 @@ The following task is advanced and therefore optional.
 
 * Update the chart whenever a new sample is selected.
 
-    ![bonus](ScreenShots/screen_4.PNG)
+* **Screen Shot of the Gauge Chart for ID# 1490** 
+
+    ![bonus-gauge](ScreenShots/screen_4.PNG)
     
 ## Deployment
 
 * Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo.
 https://sabrinasaleh.github.io/interactive-plotly-challenge/
 
-* **Screen Shot of the deployment for ID# 1601**
+* **Screen Shot of Deployment for ID# 1601**
     
     ![deployment-1](ScreenShots/screen_5.PNG)
     ![deployment-2](ScreenShots/screen_6.png)
