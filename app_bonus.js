@@ -1,6 +1,5 @@
-/**
- * BONUS Solution
- * */
+// BONUS Solution
+
 function buildGauge(wfreq) {
   // Enter the washing frequency between 0 and 180
   var level = parseFloat(wfreq) * 20;
@@ -12,7 +11,7 @@ function buildGauge(wfreq) {
   var x = radius * Math.cos(radians);
   var y = radius * Math.sin(radians);
 
-  // Path: may have to change to create a better triangle
+  // Path
   var mainPath = "M -.0 -0.05 L .0 0.05 L ";
   var pathX = String(x);
   var space = " ";
