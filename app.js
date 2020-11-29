@@ -11,10 +11,10 @@ function buildMetadata(sample) {
     PANEL.html("");
 
     // Use `Object.entries` to add each key and value pair to the panel
-    // Hint: Inside the loop, you will need to use d3 to append new
-    // tags for each key-value in the metadata.
+    // Inside the loop, use d3 to append new
+    // tags for each key-value in the metadata
     Object.entries(result).forEach(([key, value]) => {
-      PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
+      PANEL.append("h6").text(`${key}: ${value}`);
     });
 
     // BONUS: Build the Gauge Chart
@@ -68,7 +68,7 @@ function buildCharts(sample) {
     ];
 
     var barLayout = {
-      title: "Top 10 Bacteria Cultures Found",
+      title: "Top 10 OTUs per Individual",
       margin: { t: 30, l: 150 }
     };
 
